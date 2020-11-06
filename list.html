@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=yhyy0, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/bdb2d34c23.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        .sr-only{
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0,0,0,0);
+            border: 0;
+        }
+    </style>
+    <title>F O L I O</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script>
+        $(function() {
+            $(".headC").click(function(){
+                $(".headB").slideToggle();
+            });
+        });
+    </script>
+</head>
+<body>
+
+    <header>
+        <div class = "container">
+            <div class="container-small">
+                <a href = "index.html" class="headA" id = "specialheadA">F O L I O</a>
+
+                <button tpye="button" class="headC">
+                    <span class="fa fa-bars" title = "MENU"></span>
+                </button>
+            </div>
+            <nav class="headB">
+                <ul>
+                    <li><a href="index.html">TOP</a></li>
+                    <li><a href="list.html">CONTENTS</a></li>
+                    <li><a href="about.html">INTRO</a></li>
+                    <li><a href="contact.html">INFORMATION</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+</body>
+</html>
