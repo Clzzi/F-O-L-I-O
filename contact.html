@@ -1,0 +1,84 @@
+<!Doctype html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/bdb2d34c23.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        .sr-only{
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0,0,0,0);
+            border: 0;
+        }
+    </style>
+    <title>F O L I O</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script>
+        $(function() {
+            $(".headC").click(function(){
+                $(".headB").slideToggle();
+            });
+        });
+    </script>
+</head>
+<body class = "nohero">
+
+    <header>
+        <div class = "container">
+            <div class="container-small">
+                <a href = "index.html" class="headA">F O L I O</a>
+
+                <button tpye="button" class="headC">
+                    <span class="fa fa-bars" title = "MENU"></span>
+                </button>
+            </div>
+            <nav class="headB">
+                <ul>
+                    <li><a href="index.html">TOP</a></li>
+                    <li><a href="list.html">CONTENTS</a></li>
+                    <li><a href="about.html">INTRO</a></li>
+                    <li><a href="contact.html">INFORMATION</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+    <article class="post">
+        <div class = "container">
+            
+            <h1> 문의 </h1>
+            <p>F O L I O에 문의가 있다면 다음 연락처로 문의해주세요</p>
+
+            <div class="contact-wrap">
+
+                <div class="contact">
+                    <span class = "fa fa-phone"></span>
+                    <h2> 전화 </h2>
+                    <a href="tel:01090882512">010-9088-2512</a>
+                </div>
+
+                <div class = "contact">
+                    <span class="fa fa-envelope"></span>
+                    <h2> 이메일 </h2>
+                    <a href="mailto:clzzi1109@naver.com">clzzi1109@naver.com</a>
+                </div>
+            
+            </div>
+
+        </div>
+    </article>
+
+    <aside class="location">
+        <h2>L O C A T I O N</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.55843816218!2d128.41193821525826!3d35.66324928019849!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x356f59450095604b%3A0xdcee02065d82e483!2z64yA6rWs7IaM7ZSE7Yq47Juo7Ja06rOg65Ox7ZWZ6rWQ!5e0!3m2!1sen!2skr!4v1604643221301!5m2!1sen!2skr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </aside>
+</body>
+</html>
