@@ -1,7 +1,8 @@
 ## 몰라서 알게된것들 
   ### HTML
   - [meta name = " ~ " content = " ~ "]  기사와 관련된 키워드 등의 각종 정보를 작성할 때 사용합니다.
-  - [meta property = " ~ " content = "width = device-width, initial-scale = 1.0"] 모바일 전용 설정, 모바일 장치의 화면 크기에 따라 웹페이지를 출력
+  - [meta property = " ~ " content = "width = device-width, initial-scale = 1.0"] 
+  모바일 전용 설정, 모바일 장치의 화면 크기에 따라 웹페이지를 출력
   ### CSS
   - 부정 선택자 :not( ~ ) { ~ }
   - 후손 선택자 a b { ~ } (a안에b태그가 있을때)
